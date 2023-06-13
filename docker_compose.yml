@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  your_project_name:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - .:/workspace
