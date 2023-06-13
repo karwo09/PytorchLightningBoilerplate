@@ -1,4 +1,21 @@
+# Feel free to change the values below to your liking
+# Or add more options if you want to
+
 lr: 0.01
 weight_decay: 0.0005
 lr_step: 10
 optimizer: 'adam'
+model_architecture: 'resnet50'
+pretrained: True
+num_epochs: 100
+batch_size: 64
+num_workers: 4
+shuffle: True
+pin_memory: True
+dropout: 0.5
+activation: 'relu'
+loss_function: 'CrossEntropyLoss'
+metrics: ['accuracy']
+logging_dir: 'tb_logs'
+logging_name: 'my_model'
+save_model_path: './model.pth'
