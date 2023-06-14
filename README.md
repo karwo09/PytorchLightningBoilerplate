@@ -32,3 +32,7 @@ pip install -r requirements.txt
 
 ## Docker setup
 Use the container as you will. It can be run also through the docker-compose
+
+
+## Ways to contribute
+As this repository is very fresh, ideas for usecases and different setups would be appritiated.
